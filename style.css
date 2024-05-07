@@ -1,0 +1,133 @@
+/* Custom CSS */
+
+/* Style for Navbar */
+/* Style for Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(52, 58, 64, 0.8) !important; /* Blurry and semi-transparent background */
+    backdrop-filter: blur(10px); /* Blurry effect */
+    -webkit-backdrop-filter: blur(10px); /* Blurry effect for Safari */
+    z-index: 99;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 10px;
+    color: #fff; /* Text color */
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+/* Style for Hero Section */
+/* Style for Hero Section */
+.jumbotron {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 100px 0;
+
+}
+.containerx{
+    padding-top: 50px;
+}
+
+/* Style for Services Section */
+/* Style for Service Section */
+.service-section {
+    background: linear-gradient(to right, #e7e7e7, #ffffff); /* Modern background */
+    padding: 50px 0;
+}
+
+.service {
+    background: linear-gradient(to right, rgba(107, 17, 203, 0.694), rgba(37, 117, 252, 0.8)); /* Leaner gradient background */
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service h2 {
+    color: #fff; /* Text color */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #fff; /* Text color */
+}
+
+
+/* Style for Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+
+/* Contact Form Styles */
+#contact{
+    background: linear-gradient(to right, #6b11cb7f, #2574fc4a);
+    margin-top: 20px;
+}
+
+#map{
+
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+}
+/* Contact Form Styles */
+.contact-form {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.554); /* Blurry semi-transparent background */
+    border-radius: 10px;
+
+}
+@media (max-width: 767px) {
+    .contact-form{
+        margin-bottom: 20px;}
+}
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-form form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form form .form-control {
+    border-radius: 5px;
+}
+
+.contact-form form textarea.form-control {
+    resize: none;
+}
+
+.contact-form form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
